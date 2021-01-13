@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>beep...beep</title>
+    <link rel="shortcut icon" href="favicon-16x16.png">
+    <style>
+      body {
+        font-family: Monaco;
+        margin: 0;
+        background: #363636;
+      }
+      #def {
+        position: absolute;
+        right: 15%;
+        top: 20%;
+        color: black;
+        background-color: #6d8577;
+        text-shadow: 1px 1px 2px #4d6657;
+        border: 3px solid gray;
+        width: 30vw;
+        height: 5vh;
+        overflow: scroll;
+        overflow-x: hidden;
+        font-size: 30px;
+        text-align: left;
+      }
+      #invention {
+        position: absolute;
+        left: 10%;
+        top: 2%;
+        color: purple;
+        background-color: #faf9f5;
+        width: 15vw;
+        height: 20vh;
+        overflow: scroll;
+        overflow-x: hidden;
+        padding: 60px;
+        font-size: 12px;
+        line-height: 20px;
+        text-transform: uppercase;
+      }
+      #current {
+        position: absolute;
+        left: 25%;
+        top: 50%;
+        background: #fce84c;
+        padding: 50px;
+        width: 30vw;
+        color: black;
+        font-size: 18px;
+      }
+      #ka-ching {
+        top: 20%;
+        width: 100%;
+        font-size: 300px;
+        text-align: right;
+      }
+      #beep {
+        position: fixed;
+        top: 2%;
+        right: 2%;
+        z-index: 5;
+      }
+      .emphasis {color: blue;}
+
+      #ka-ching:link {
+        color: #04d4bf;
+      }
+
+      #ka-ching:visited {
+        color: #2871c9;
+      }
+
+      #ka-ching:hover {
+        color: #008a7c;
+      }
+
+      #ka-ching:active {
+        color: blue;
+      }
+      img:hover {border: 5px solid #04d4bf;}
+
+      #gif {
+        width: 100px;
+        position:fixed;
+        top: 10%;
+        right: 2%;
+      }
+
+    </style>
+  </head>
+  <body>
+
+    <audio id="beep" controls src="barcode scanner.mp3"></audio>
+
+    <div>
+      <p id="def">An early mechanical cash register was invented by James Ritty and John Birch following the American Civil War. James was the owner of a saloon in Dayton, Ohio, US, and wanted to stop employees from <span class="emphasis">pilfering his profits</span>.</p>
+      <p id="invention">Early mechanical registers were entirely mechanical, without receipts. The employee was required to ring up every transaction on the register, and when the total key was pushed, the drawer opened and a bell would ring, <span class="emphasis">alerting</span> the manager to a sale taking place. Those original machines were nothing but simple adding machines.<br>Since the registration is done with the process of returning change, according to Bill Bryson odd pricing came about because by charging odd amounts like 49 and 99 cents (or 45 and 95 cents when nickels are more used than pennies), the cashier very probably had to open the till for the penny change and thus announce the sale.</p>
+      <p id="current">Often cash registers are attached to scales, barcode scanners, checkstands, and debit card or credit card terminals. Increasingly, dedicated cash registers are being replaced with general purpose computers with POS software. Cash registers use bitmap characters for printing.</p>
+    <!--https://en.wikipedia.org/wiki/Cash_register#:~:text=An%20early%20mechanical%20cash%20register,employees%20from%20pilfering%20his%20profits.-->
+    </div>
+    <a id="ka-ching" href="Cha_Ching.mp3">ka-ching</a>
+    <a href="https://www.youtube.com/watch?v=gR46VzCAZ8I"><img src="electronic checkout terminal.jpg"></a>
+    <img id="gif" src="taking cash.gif">
+
+  </body>
+</html>
