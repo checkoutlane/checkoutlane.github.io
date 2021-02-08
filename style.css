@@ -1,0 +1,83 @@
+body {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 16px;
+}
+canvas {
+    position: fixed !important;
+    display: block;
+}
+a {
+    text-decoration: none;
+    z-index: 10;
+    cursor: pointer;
+    font-family: 'Space Mono', monospace;
+    font-weight: 400;
+    font-size: 1rem;
+}
+.play {
+    position: absolute;
+    top: 2vh;
+    right: 2vw;
+}
+.back {
+    position: absolute;
+    top: 2vh;
+    left: 2vw;
+}
+ 
+.story {
+    position: absolute;
+    top: 15%;
+    left: 20%;
+    width: 50vw;
+    z-index: 10;
+    padding: 3vw;
+}
+.story.raspberry {
+    transform: rotate(-5deg);
+    background-color: rgba(0, 161, 91, .8);
+}
+.story.friedrice {
+    transform: rotate(5deg);
+    background-color: rgba(236, 234, 230, 0.8);
+}
+.story.popsicle {
+    transform: rotate(5deg);
+    background-color: rgba(187, 230, 255, 0.8);
+}
+.story.apple {
+    top: 25vh;
+    transform: rotate(-8deg);
+    background-color: rgba(158, 63, 0, 0.8);
+    color:rgba(136, 199, 64);
+}
+.story.egg{
+    transform: rotate(2deg);
+    background-color: rgba(189, 255, 187, 0.8);
+}
+.story p {
+    font-family: 'Space Mono', monospace;
+    font-weight: 400;
+    font-size: 1rem;
+    line-height: 1.3;
+}
+
+/* button */
+.random {
+    position: relative;
+    display: inline-block;
+    padding: 15px 25px;
+    font-size: 24px;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    outline: none;
+    color: #fff;
+    background-color: #4CAF50;
+    border: none;
+    border-radius: 15px;
+    box-shadow: 0 9px #999;
+}
+
