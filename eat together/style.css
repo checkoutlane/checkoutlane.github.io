@@ -129,8 +129,8 @@ button {
 /* index button */
 .random {
     position: absolute;
-    top: 60%;
-    right: 30%;
+    top: 65%;
+    right: 10%;
     cursor: pointer;
     transform: rotate(3deg);
     border: none;
@@ -156,7 +156,19 @@ button {
     background-color: rgb(255, 157, 29);
     width: 100%;
 }
-
+/* index instructions */
+.eat {
+    position: absolute;
+    left: 3vw;
+    top: 45vh;
+    width: 10vw;
+}
+.decide {
+    position: absolute;
+    right: 5vw;
+    top: 45vh;
+    width: 10vw;
+}
 /* page transitions */
 /* fade
 .transition-1 {
